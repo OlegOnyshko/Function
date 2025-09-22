@@ -21,14 +21,6 @@ def convert_currency():
         buy_rate = float(rate["buy"])
         
         result = inputNumber / buy_rate
-        print(f"Ваша стипендія у {currency}: {result:.2f}")
+        print(f"Ваша стипендія у {currency}: {round(result, 2)}")
 
 convert_currency()
-
-            
-            
-
-            
-
-
-    
